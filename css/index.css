@@ -1,0 +1,165 @@
+.main {
+    margin-top: 10px;
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.news-hd .more {
+    float: right;
+}
+.news-hd .more::after {
+    content: '>'
+}
+.news-bd {
+    padding: 6px 15px 0;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    height: 210px;
+    border-left: 1px solid #e4e4e4;
+    background: url(../images/icons.png);
+}
+.lifeservice ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.lifeservice ul li:nth-child(4n) {
+    width: 63px;
+}
+.lifeservice ul li p {
+    padding-top: 45px;
+}
+.bargain {
+    margin-top: 5px;
+}
+.recom {
+    height: 163px;
+    margin-top: 12px;
+}
+.recom-hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background: #5c5251 url(../images/recom.png) no-repeat center;
+}
+.recom-bd {
+    float: left;
+}
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+.recom-bd ul li:nth-child(-n+3)::after {
+    position: absolute;
+    right: 0;
+    top: 9px;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.recom-bd ul li:last-child::after {
+    position: absolute;
+    right: -3px;
+    content: '';
+    width: 3px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c83612;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c83612;
+    font-weight: 400;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+}
+.floor .w {
+    margin-top: 20px;
+}
+.box-bd {
+    height: 360px;
+}
+.tab_list_item>div {
+    float: left;
+    height: 360px;
+}
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul {
+    padding-left: 14px;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #ccc;
+    margin-right: 13px;
+}
+.col_210>a {
+    line-height: 258px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

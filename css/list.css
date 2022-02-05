@@ -1,0 +1,51 @@
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding-left: 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sk_con ul li:last-child a::after {
+    content: 'v';
+    padding-left: 5px;
+}
+.sk_bd ul li {
+    float: left;
+    margin-right: 10px;
+    width: 292px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
